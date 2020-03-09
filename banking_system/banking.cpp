@@ -1,8 +1,7 @@
 #include "banking.h"
 
 Banking::Banking(){
-    bankName = "unknown";
-    
+    bankName = "unknown";    
 }
 
 Banking::Banking(string bankName){
@@ -26,22 +25,26 @@ string Banking::getBankName(){
     return bankName;
 }
 
-void Banking::setAccountOwner(string firstName, string lastName){
-    Account accountOwner(firstName, lastName,0.01);
+void Banking::setAccount(string firstName, string lastName, double balance){
+    account = Account(firstName, lastName, balance);
+    cout << "Your new account has been set up.";
 }
 
-Account Banking::getAccountOwner(){
-    return accountOwner;
+Account Banking::getAccount(){
+    return account;
 }
 
 
 void Banking::openNewAccount(){
     string firstName, lastName;
+    double balance;
     cout<<"Enter your first name: ";
     cin>>firstName;
     cout<<"Enter your last name: ";
     cin>>lastName;
-    setAccountOwner(firstName, lastName);
+    cout << "Enter initial balance: ";
+    cin>>balance;
+    setAccount(firstName, lastName, balance);
 }
 
 void Banking::closeAccount(){
@@ -51,6 +54,7 @@ void Banking::closeAccount(){
 void Banking::deposit(){
     long accountNumber;
     double amountInCAD;
+    
     cout << "Enter account number: ";
     cin>>accountNumber;
     cout << "Enter deposit amount in CAD: ";
@@ -60,9 +64,9 @@ void Banking::deposit(){
         if(amountInCAD < 0){
             throw 1;
         }
-        int currentBalance = accountOwner.getBalance();
-        if(accountOwner.getAccountNumber() == accountNumber){
-            accountOwner.setBalance(currentBalance + amountInCAD);
+        int currentBalance = account.getBalance();
+        if(account.getAccountNumber() == accountNumber){
+            account.setBalance(currentBalance + amountInCAD);
         }
         else{
             throw 'e';

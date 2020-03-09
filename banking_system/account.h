@@ -9,10 +9,11 @@ class Account{
         string lastName;
         long accountNumber;
         double balance;
-        const int ACCOUNT_NUMBER_BASE = 8000;
+        //const int ACCOUNT_NUMBER_BASE = 8000;
+        static long index ;
     public:
-
-        static int index;
+        static const long ACCOUNT_NUMBER_BASE = 8000;
+        
 
         Account();
         Account(string firstName, string lastName, double balance);
@@ -20,12 +21,13 @@ class Account{
         string getFirstName();
         void setLastName(string lastName);
         string getLastName();
-        void setAccountNumber();
+
+        static void setAccountNumber();
         long getAccountNumber();
         void setBalance(double balance);
         double getBalance();
         void showAccountDetails();
-
+        ~Account();
 };
 
 #endif

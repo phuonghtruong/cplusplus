@@ -24,6 +24,7 @@ int main(){
         cin>>choice;
         switch(choice){
             case 1:
+                
                 bank.openNewAccount();
                 break;
             case 2:
@@ -42,8 +43,9 @@ int main(){
                 //displayAllAccounts();
                 break;
             case 7:
-                //exitBanking();
-                break;
+                cout << "Thank you for choosing " + bank.getBankName() + " BANK";
+                cout << "Have a great day";
+                exit(1);
             default:
                 cout << "Invalid choice!" <<endl;
                 break;

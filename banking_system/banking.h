@@ -7,7 +7,7 @@ class Account;
 
 class Banking{
 private:
-    Account accountOwner;
+    Account account;
     string bankName;
 public:
     Banking();
@@ -16,8 +16,8 @@ public:
     void setBankName(string bankName);
     string getBankName();
 
-    void setAccountOwner(string firstName, string lastName);
-    Account getAccountOwner();
+    void setAccount(string firstName, string lastName, double balance);
+    Account getAccount();
     void openNewAccount();
     void closeAccount();
     //void addAccountNumber(long accountNumber, double amountInCAD = 0);

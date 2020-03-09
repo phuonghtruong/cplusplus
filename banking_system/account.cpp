@@ -1,6 +1,6 @@
 #include "account.h"
 
-int Account::index=0;
+long Account::index=0;
 
 Account::Account(){
     firstName = "unknown";
@@ -53,7 +53,7 @@ string Account::getLastName(){
     return lastName;
 }
 
-void Account::setAccountNumber(){
+static void Account::setAccountNumber(){
     index++;
     accountNumber = ACCOUNT_NUMBER_BASE + index;
 }
@@ -82,4 +82,8 @@ double Account::getBalance(){
 void Account::showAccountDetails(){
     cout<<getLastName()<<", "<<getFirstName()<<"\t\t\t"
         <<getAccountNumber()<<"\t\t\t"<<getBalance()<<endl;
+}
+
+Account::~Account(){
+    //Destructor
 }
