@@ -1,0 +1,3 @@
+C:/Users/phuon/Documents/cplusplus/practice/cmakeTutorial/build/CMakeFiles/hello.dir
+C:/Users/phuon/Documents/cplusplus/practice/cmakeTutorial/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/phuon/Documents/cplusplus/practice/cmakeTutorial/build/CMakeFiles/ZERO_CHECK.dir

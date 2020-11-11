@@ -1,0 +1,14 @@
+C:/Users/phuon/Documents/cplusplus/googletest/cpp/build/CMakeFiles/mytests.dir
+C:/Users/phuon/Documents/cplusplus/googletest/cpp/build/CMakeFiles/INSTALL.dir
+C:/Users/phuon/Documents/cplusplus/googletest/cpp/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/phuon/Documents/cplusplus/googletest/cpp/build/CMakeFiles/ZERO_CHECK.dir
+C:/Users/phuon/Documents/cplusplus/googletest/cpp/build/googletest/CMakeFiles/INSTALL.dir
+C:/Users/phuon/Documents/cplusplus/googletest/cpp/build/googletest/CMakeFiles/ALL_BUILD.dir
+C:/Users/phuon/Documents/cplusplus/googletest/cpp/build/googletest/googlemock/CMakeFiles/INSTALL.dir
+C:/Users/phuon/Documents/cplusplus/googletest/cpp/build/googletest/googlemock/CMakeFiles/gmock_main.dir
+C:/Users/phuon/Documents/cplusplus/googletest/cpp/build/googletest/googlemock/CMakeFiles/gmock.dir
+C:/Users/phuon/Documents/cplusplus/googletest/cpp/build/googletest/googlemock/CMakeFiles/ALL_BUILD.dir
+C:/Users/phuon/Documents/cplusplus/googletest/cpp/build/googletest/googletest/CMakeFiles/gtest.dir
+C:/Users/phuon/Documents/cplusplus/googletest/cpp/build/googletest/googletest/CMakeFiles/gtest_main.dir
+C:/Users/phuon/Documents/cplusplus/googletest/cpp/build/googletest/googletest/CMakeFiles/INSTALL.dir
+C:/Users/phuon/Documents/cplusplus/googletest/cpp/build/googletest/googletest/CMakeFiles/ALL_BUILD.dir
