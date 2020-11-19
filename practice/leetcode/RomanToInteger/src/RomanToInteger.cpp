@@ -1,11 +1,11 @@
 #include "../include/RomanToInteger.h"
 
-int RomanToInteger(std::string s)
+int romanToInt(std::string s)
 {
     int value;
     int index = 0;
     int result = 0;
-    while(s[index] != NULL)
+    while(index == s.length())
     {
         std::cout << s[index] << std::endl;
         value = RomanToInteger_MapTable(s[index]);
